@@ -1,0 +1,33 @@
+{
+    "name": "angular-signals-jsx-starter",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "format": "prettier -w .",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@angular/core": "16.0.0-next.4",
+        "@rollup/plugin-babel": "^6.0.3",
+        "@rollup/plugin-node-resolve": "^15.0.2",
+        "angular-signals-jsx": "^0.1.1",
+        "babel-plugin-jsx-dom-expressions": "^0.34.0",
+        "rxjs": "^7.8.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.21.4",
+        "prettier": "^2.8.7",
+        "typescript": "^5.0.4",
+        "vite": "^4.2.0"
+    },
+    "prettier": {
+        "printWidth": 100,
+        "tabWidth": 4,
+        "singleQuote": false,
+        "semi": false,
+        "arrowParens": "avoid"
+    }
+}
